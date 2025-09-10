@@ -1,7 +1,7 @@
 <template>
     <q-page padding class="documentation-page">
         <div class="container">
-        <h1 class="text-h4 text-center text-primary q-mb-md">Pinia</h1>
+        <h1 class="text-h4 text-center text-green-14 q-mb-md">Pinia</h1>
 
         <div class="paragraph-container q-mb-lg">
             <p class="text-body1">Pinia es la biblioteca oficial de gestión de estado para Vue 3. Reemplaza a Vuex con una API más simple y moderna.</p>
@@ -11,7 +11,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 1: Instalación</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 1: Instalación</div>
                 <q-card class="code-card" flat bordered>
                     <q-card-section class="q-pa-md">
                     <code class="text-caption">npm install pinia</code>
@@ -24,7 +24,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 2: Configuramos pinia en main.js para usarlo en toda la app</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 2: Configuramos pinia en main.js para usarlo en toda la app</div>
                 <q-img 
                     src="../assets/configuracionPiniaMain.png" 
                     alt="Configuracion Pinia Main"
@@ -38,7 +38,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 3: Creamos una carpeta llamada stores en src y dentro de esa carpeta creamos un archivo user.js (o el que se le sea necesario en tu proyecto)</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 3: Creamos una carpeta llamada stores en src y dentro de esa carpeta creamos un archivo user.js (o el que se le sea necesario en tu proyecto)</div>
                 <q-img 
                     src="../assets/configuracionPiniaStore.png" 
                     alt="Configuracion Pinia Store"
@@ -52,7 +52,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 4: Ahora ya podemos usar esa store en cualquier componente</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 4: Ahora ya podemos usar esa store en cualquier componente</div>
                 <q-img 
                     src="../assets/usandoPiniaEnComponente.png" 
                     alt="Usando Pinia En Un Componente"

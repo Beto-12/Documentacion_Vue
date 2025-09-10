@@ -1,7 +1,7 @@
 <template>
     <q-page padding class="documentation-page">
         <div class="container">
-        <h1 class="text-h4 text-center text-primary q-mb-md">Creación De Un Proyecto</h1>
+        <h1 class="text-h4 text-center text-green-14 q-mb-md">Creación De Un Proyecto</h1>
 
         <div class="paragraph-container q-mb-lg">
             <p class="text-body1">La forma más rápida y recomendada de crear un proyecto Vue 3 es usando Vite, una herramienta de construcción moderna que ofrece tiempos de arranque ultra rápidos.</p>
@@ -11,7 +11,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 1: Crear el proyecto</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 1: Crear el proyecto</div>
                 <q-card class="code-card q-mb-sm" flat bordered>
                     <q-card-section class="q-pa-md">
                     <code class="text-caption">npm create vite@latest mi-proyecto -- --template vue</code>
@@ -38,7 +38,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 2: Seleccionar la variante del lenguaje</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 2: Seleccionar la variante del lenguaje</div>
                 <q-img 
                     src="../assets/seleccionarVariante.png" 
                     alt="Seleccionar Variante"
@@ -52,7 +52,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 3: Entramos a la carpeta que se creo.</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 3: Entramos a la carpeta que se creo.</div>
                 <q-card class="code-card" flat bordered>
                     <q-card-section class="q-pa-md">
                     <code class="text-caption">cd mi-proyecto</code>
@@ -65,7 +65,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 4: Instalamos las dependencias.</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 4: Instalamos las dependencias.</div>
                 <q-card class="code-card" flat bordered>
                     <q-card-section class="q-pa-md">
                     <code class="text-caption">npm install</code>
@@ -78,7 +78,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 5: Corremos el servidor.</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 5: Corremos el servidor.</div>
                 <q-card class="code-card q-mb-sm" flat bordered>
                     <q-card-section class="q-pa-md">
                     <code class="text-caption">npm run dev</code>
@@ -92,7 +92,7 @@
             <div class="step-card">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Estructura básica del proyecto.</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Estructura básica del proyecto.</div>
                 <q-img 
                     src="../assets/estructuraBasica.png" 
                     alt="Estructura Basica"

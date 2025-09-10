@@ -1,138 +1,7 @@
-<!-- <template>
-  <div class="">
-    <q-layout view="hHh Lpr lff" container style="height: 100vh" class="shadow-2 rounded-borders">
-      <q-header elevated :class="$q.dark.isActive ? 'bg-secondary' : ''">
-        <q-toolbar>
-          <q-btn flat @click="drawer = !drawer" round dense icon="menu" />
-          <q-toolbar-title>Conociendo un poco de Vue 3</q-toolbar-title>
-        </q-toolbar>
-      </q-header>
-
-      <q-drawer
-        v-model="drawer"
-        show-if-above
-        :width="200"
-        :breakpoint="500"
-        bordered
-        :class="$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-3'"
-      >
-        <q-scroll-area class="fit">
-          <q-list>
-
-            <template v-for="(menuItem, index) in menuList" :key="index">
-              <q-item clickable :to="menuItem.to" active-class="text-primary" exact v-ripple>
-                <q-item-section avatar>
-                  <q-icon :name="menuItem.icon" />
-                </q-item-section>
-                <q-item-section>
-                  {{ menuItem.label }}
-                </q-item-section>
-              </q-item>
-              <q-separator :key="'sep' + index"  v-if="menuItem.separator" />
-            </template>
-
-          </q-list>
-        </q-scroll-area>
-      </q-drawer>
-
-      <q-page-container>
-        <q-page padding>
-          <router-view/>
-        </q-page>
-      </q-page-container>
-    </q-layout>
-  </div>
-</template>
-
-<script setup>
-import { ref } from 'vue'
-
-const menuList = [
-  {
-    label: 'Que es Vue 3',
-    separator: true,
-    to: '/'
-  },
-  {
-    label: 'Requisitos',
-    separator: false,
-    to: '/requisitos'
-  },
-  {
-    label: 'Creacion del proyecto',
-    separator: false,
-    to: '/creacion-proyecto'
-  },
-  {
-    label: 'Interpolacion',
-    separator: false,
-    to: '/interpolacion'
-  },
-  {
-    label: 'Directivas de vue',
-    separator: false,
-    to: '/directivas'
-  },
-  {
-    label: 'Options Api',
-    separator: false,
-    to: '/optiones-api'
-  },
-  {
-    label: 'Composition Api',
-    separator: false,
-    to: '/composition-api'
-  },
-  {
-    label: 'Ciclo de vida de Vue',
-    separator: false,
-    to: '/ciclo-de-vida'
-  },
-  {
-    label: 'Componentes importación',
-    separator: false,
-    to: '/componentes-importacion'
-  },
-  {
-    label: 'Componetización Props',
-    separator: true,
-    to: '/componetizacion-props'
-  },
-  {
-    label: 'Creación de un proyecto template Quasar',
-    separator: false,
-    to: '/creacion-proyecto-template-quasar'
-  },
-  {
-    label: 'Instalar Quasar en un proyecto ya creado',
-    separator: true,
-    to: '/instalar-quasar-proyecto-creado'
-  },
-  {
-    label: 'Vue router',
-    separator: true,
-    to: '/vue-router'
-  },
-  {
-    label: 'Pinia',
-    separator: false,
-    to: '/pinia'
-  },
-  {
-    label: 'Pinia-plugin-presistedstate',
-    separator: true,
-    to: '/pinia-plugin-presistedstate'
-  },
-]
-
-  const drawer = ref(false)
-
-</script> -->
-
 <template>
   <div class="app-container">
     <q-layout view="hHh Lpr lff" container style="height: 100vh" class="shadow-2 rounded-borders">
-      <q-header elevated :class="$q.dark.isActive ? 'bg-secondary' : 'bg-primary'">
+      <q-header elevated :class="$q.dark.isActive ? 'bg-secondary' : 'bg-green-14'">
         <q-toolbar>
           <q-btn flat @click="drawer = !drawer" round dense icon="menu" />
           <q-toolbar-title class="text-weight-bold">Conociendo un poco de Vue 3</q-toolbar-title>
@@ -145,7 +14,6 @@ const menuList = [
         :width="250"
         :breakpoint="500"
         bordered
-        :class="$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-1'"
       >
         <q-scroll-area class="fit">
           <q-list padding>
@@ -153,7 +21,7 @@ const menuList = [
               <q-item 
                 clickable 
                 :to="menuItem.to" 
-                active-class="bg-primary text-white" 
+                active-class="bg-green-14 text-white" 
                 exact 
                 v-ripple
                 class="q-mb-xs"

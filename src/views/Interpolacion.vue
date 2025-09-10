@@ -1,7 +1,7 @@
 <template>
     <q-page padding class="documentation-page">
         <div class="container">
-        <h1 class="text-h4 text-center text-primary q-mb-md">Interpolación</h1>
+        <h1 class="text-h4 text-center text-green-14 q-mb-md">Interpolación</h1>
 
         <div class="paragraph-container q-mb-lg">
             <p class="text-body1">La interpolación es la forma más básica de mostrar datos en la interfaz de usuario. Se realiza usando la sintaxis de llaves dobles: <code>&#123;&#123;  &#125;&#125;</code>.</p>
@@ -17,7 +17,7 @@
         </div>
 
         <div class="content-section q-mb-xl">
-            <h3 class="text-h6 text-primary q-mb-sm">¿Qué puedes poner dentro de <code>&#123;&#123;  &#125;&#125;</code>?</h3>
+            <h3 class="text-h6 text-green-14 q-mb-sm">¿Qué puedes poner dentro de <code>&#123;&#123;  &#125;&#125;</code>?</h3>
             <q-list bordered separator class="q-mb-md">
             <q-item>
                 <q-item-section>
@@ -38,7 +38,7 @@
         </div>
 
         <div class="examples-section q-mb-xl">
-            <h3 class="text-h6 text-primary q-mb-sm">Ejemplos válidos</h3>
+            <h3 class="text-h6 text-green-14 q-mb-sm">Ejemplos válidos</h3>
             <q-card class="code-card" flat bordered>
             <q-card-section>
                 <pre class="text-caption bg-grey-10 text-green q-pa-md rounded-borders overflow-auto">{{ ejemplosValidos }}</pre>
@@ -47,7 +47,7 @@
         </div>
 
         <div class="restrictions-section q-mb-xl">
-            <h3 class="text-h6 text-primary q-mb-sm">No permitido:</h3>
+            <h3 class="text-h6 text-green-14 q-mb-sm">No permitido:</h3>
             <q-list bordered separator>
             <q-item>
                 <q-item-section>

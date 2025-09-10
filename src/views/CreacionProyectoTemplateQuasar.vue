@@ -1,14 +1,14 @@
 <template>
     <q-page padding class="documentation-page">
         <div class="container">
-        <h1 class="text-h4 text-center text-primary q-mb-md">Crear Proyecto con Template Quasar</h1>
+        <h1 class="text-h4 text-center text-green-14 q-mb-md">Crear Proyecto con Template Quasar</h1>
 
         <div class="paragraph-container q-mb-lg">
             <p class="text-body1">Quasar Framework es un framework basado en Vue que permite crear aplicaciones para múltiples plataformas: SPA, PWA, móviles (Android/iOS), escritorio (Electron), y más.</p>
         </div>
 
         <div class="create-section q-mb-xl">
-            <h4 class="text-h6 text-primary q-mb-sm">Crear proyecto con Quasar CLI</h4>
+            <h4 class="text-h6 text-green-14 q-mb-sm">Crear proyecto con Quasar CLI</h4>
             <q-card class="code-card" flat bordered>
             <q-card-section class="q-pa-md">
                 <code class="text-caption">npm create quasar@latest mi-app-quasar</code>
@@ -20,7 +20,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 1: Selecciona App with Quasar CLI</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 1: Selecciona App with Quasar CLI</div>
                 <q-img 
                     src="../assets/createQuasar.png" 
                     alt="Create Quasar"
@@ -34,7 +34,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 2: Selecciona la variante del script</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 2: Selecciona la variante del script</div>
                 <q-img 
                     src="../assets/seleccionarVarianteQuasar.png" 
                     alt="Seleccionar Variante del script Quasar"
@@ -48,7 +48,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 3: Selecciona la variante CLI</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 3: Selecciona la variante CLI</div>
                 <q-img 
                     src="../assets/varianteCLI.png" 
                     alt="Variante CLI"
@@ -62,7 +62,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 4: Nombra el Package</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 4: Nombra el Package</div>
                 <q-img 
                     src="../assets/nombrePackage.png" 
                     alt="Nombrar el package"
@@ -76,7 +76,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 5: Dale nombre al proyecto</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 5: Dale nombre al proyecto</div>
                 <q-img 
                     src="../assets/nombreProject.png" 
                     alt="Nombrar el proyecto"
@@ -90,7 +90,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 6: Descripción del proyecto (opcional)</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 6: Descripción del proyecto (opcional)</div>
                 <q-img 
                     src="../assets/descripcionProject.png" 
                     alt="Descripción del proyecto"
@@ -104,7 +104,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 7: Selecciona el estilo del componente Vue</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 7: Selecciona el estilo del componente Vue</div>
                 <q-img 
                     src="../assets/componentStyle.png" 
                     alt="Estilos del componente"
@@ -118,7 +118,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 8: Selecciona el preprocessor de CSS</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 8: Selecciona el preprocessor de CSS</div>
                 <q-img 
                     src="../assets/preprocessorCSS.png" 
                     alt="Preprocessor de CSS"
@@ -132,7 +132,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 9: Selecciona las características del proyecto</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 9: Selecciona las características del proyecto</div>
                 <q-img 
                     src="../assets/featuresProject.png" 
                     alt="Caracteristicas del proyecto"
@@ -146,7 +146,7 @@
             <div class="step-card">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 10: Instalar dependencias</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 10: Instalar dependencias</div>
                 <q-img 
                     src="../assets/instalarDependenciasProject.png" 
                     alt="Instalar dependencias del proyecto"
@@ -159,7 +159,7 @@
         </div>
 
         <div class="advantages-section q-mt-xl">
-            <h4 class="text-h6 text-primary q-mb-sm">Ventajas de Quasar:</h4>
+            <h4 class="text-h6 text-green-14 q-mb-sm">Ventajas de Quasar:</h4>
             <q-list bordered separator class="feature-list">
             <q-item>
                 <q-item-section>

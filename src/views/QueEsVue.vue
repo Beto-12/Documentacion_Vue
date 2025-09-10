@@ -2,7 +2,7 @@
     <q-page padding class="documentation-page">
         <div class="container">
         <div>
-            <h1 class="text-h4 text-center text-primary text-weight-bold q-mb-md">¿Qué es Vue 3?</h1>
+            <h1 class="text-h4 text-center text-green-14 text-weight-bold q-mb-md">¿Qué es Vue 3?</h1>
         </div>
 
         <div class="description-container q-mb-lg">
@@ -18,7 +18,7 @@
         <div class="features-container q-mb-lg">
             <q-card class="features-card" flat bordered>
             <q-card-section>
-                <h4 class="text-h6 text-primary q-mb-sm">Características Principales</h4>
+                <h4 class="text-h6 text-green-14 q-mb-sm">Características Principales</h4>
                 <q-list separator>
                 <q-item v-for="(feature, index) in features" :key="index">
                     <q-item-section>
@@ -33,7 +33,7 @@
         <div class="why-use-container">
             <q-card class="why-use-card" flat bordered>
             <q-card-section>
-                <h4 class="text-h6 text-primary q-mb-sm">¿Por qué usar Vue?</h4>
+                <h4 class="text-h6 text-green-14 q-mb-sm">¿Por qué usar Vue?</h4>
                 <q-list separator>
                 <q-item v-for="(reason, index) in reasons" :key="index">
                     <q-item-section>

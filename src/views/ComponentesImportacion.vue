@@ -1,14 +1,14 @@
 <template>
     <q-page padding class="documentation-page">
         <div class="container">
-        <h1 class="text-h4 text-center text-primary q-mb-md">Componentes: Importación</h1>
+        <h1 class="text-h4 text-center text-green-14 q-mb-md">Componentes: Importación</h1>
         
         <div class="paragraph-container q-mb-lg">
             <p class="text-body1">En Vue, puedes dividir tu interfaz en componentes reutilizables. Cada componente es un archivo <strong>.vue</strong> que contiene <strong>template</strong>, <strong>script</strong> y <strong>style</strong>.</p>
         </div>
 
         <div class="child-component-section q-mb-xl">
-            <h4 class="text-h6 text-primary q-mb-sm">Paso 1: Crear un componente hijo</h4>
+            <h4 class="text-h6 text-green-14 q-mb-sm">Paso 1: Crear un componente hijo</h4>
             <q-banner class="q-mb-md" dense inline-actions>
             <div class="text-caption">Ojo. Los componentes se crean en la carpeta components</div>
             </q-banner>
@@ -20,7 +20,7 @@
         </div>
 
         <div class="parent-component-section q-mb-xl">
-            <h4 class="text-h6 text-primary q-mb-sm">Paso 2: Importar y usar en el padre</h4>
+            <h4 class="text-h6 text-green-14 q-mb-sm">Paso 2: Importar y usar en el padre</h4>
             <q-card class="code-card" flat bordered>
             <q-card-section>
                 <pre class="text-caption bg-grey-10 text-green q-pa-md rounded-borders overflow-auto">{{ componentePadre }}</pre>

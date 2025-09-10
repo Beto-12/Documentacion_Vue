@@ -1,7 +1,7 @@
 <template>
     <q-page padding class="documentation-page">
         <div class="container">
-        <h1 class="text-h4 text-center text-primary q-mb-md">Pinia Plugin Persistedstate</h1>
+        <h1 class="text-h4 text-center text-green-14 q-mb-md">Pinia Plugin Persistedstate</h1>
 
         <div class="paragraph-container q-mb-lg">
             <p class="text-body1">El plugin pinia-plugin-persistedstate permite persistir el estado de Pinia en localStorage o sessionStorage, para que no se pierda al recargar la página.</p>
@@ -11,7 +11,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Instalación</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Instalación</div>
                 <q-card class="code-card" flat bordered>
                     <q-card-section class="q-pa-md">
                     <code class="text-caption">npm install pinia-plugin-persistedstate</code>
@@ -24,7 +24,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 2: Configuramos el main.js para que funcione <strong>pinia-plugin-persistedstate</strong></div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 2: Configuramos el main.js para que funcione <strong>pinia-plugin-persistedstate</strong></div>
                 <q-img 
                     src="../assets/piniaPersistedstate.png" 
                     alt="Pinia Persistedstate"
@@ -38,7 +38,7 @@
             <div class="step-card">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 3: Implementarlo en el store</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 3: Implementarlo en el store</div>
                 <q-img 
                     src="../assets/configuracionPiniaPersistedstate.png" 
                     alt="Configuracion Pinia Persistedstate"

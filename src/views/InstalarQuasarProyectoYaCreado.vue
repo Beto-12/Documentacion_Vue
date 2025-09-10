@@ -1,7 +1,7 @@
 <template>
     <q-page padding class="documentation-page">
         <div class="container">
-        <h1 class="text-h4 text-center text-primary q-mb-md">Instalar Quasar En Un Proyecto Ya Creado</h1>
+        <h1 class="text-h4 text-center text-green-14 q-mb-md">Instalar Quasar En Un Proyecto Ya Creado</h1>
 
         <div class="paragraph-container q-mb-lg">
             <p class="text-body1">Si ya tienes un proyecto Vue con Vite, puedes agregar Quasar manualmente.</p>
@@ -11,7 +11,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 1: Instalar dependencias</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 1: Instalar dependencias</div>
                 <q-card class="code-card" flat bordered>
                     <q-card-section class="q-pa-md">
                     <code class="text-caption">npm install quasar @quasar/extras<br>npm install -D @quasar/vite-plugin</code>
@@ -24,7 +24,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 2: Configurar vite.config.js</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 2: Configurar vite.config.js</div>
                 <q-img 
                     src="../assets/configuracionVite.png" 
                     alt="Configuración del archivo vite.config.js"
@@ -38,7 +38,7 @@
             <div class="step-card q-mb-md">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 3: Configurar el main.js</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 3: Configurar el main.js</div>
                 <q-img 
                     src="../assets/configurarMain.png" 
                     alt="Configurar Main.js"
@@ -52,7 +52,7 @@
             <div class="step-card">
             <q-card flat bordered>
                 <q-card-section>
-                <div class="text-h6 text-primary q-mb-sm">Paso 4: Por último creamos el archivo <strong>quasar-variables.sass</strong> dentro de la carpeta src.</div>
+                <div class="text-h6 text-green-14 q-mb-sm">Paso 4: Por último creamos el archivo <strong>quasar-variables.sass</strong> dentro de la carpeta src.</div>
                 <q-img 
                     src="../assets/variablesScss.png" 
                     alt="Variables scss"

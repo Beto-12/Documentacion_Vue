@@ -1,7 +1,7 @@
 <template>
     <q-page padding class="documentation-page">
         <div class="container">
-        <h1 class="text-h4 text-center text-primary q-mb-md">Requisitos</h1>
+        <h1 class="text-h4 text-center text-green-14 q-mb-md">Requisitos</h1>
 
         <div class="paragraph-container q-mb-lg">
             <p class="text-body1">Para comenzar a desarrollar con Vue 3, necesitas tener instaladas algunas herramientas básicas en tu sistema.</p>

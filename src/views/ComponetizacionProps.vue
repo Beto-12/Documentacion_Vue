@@ -1,17 +1,17 @@
 <template>
     <q-page padding class="documentation-page">
         <div class="container">
-        <h1 class="text-h4 text-center text-primary q-mb-md">Componentización y Props</h1>
+        <h1 class="text-h4 text-center text-green-14 q-mb-md">Componentización y Props</h1>
 
         <div class="paragraph-container q-mb-lg">
             <p class="text-body1">La componentización es el proceso de dividir una interfaz en partes independientes y reutilizables.</p>
             
-            <h4 class="text-h6 text-primary q-mb-sm">¿Qué son las props?</h4>
+            <h4 class="text-h6 text-green-14 q-mb-sm">¿Qué son las props?</h4>
             <p class="text-body1">Las props (abreviatura de "properties") son datos que se pasan de un componente padre a un componente hijo.</p>
         </div>
 
         <div class="declare-props-section q-mb-xl">
-            <h4 class="text-h6 text-primary q-mb-sm">Paso 1: Declarar props</h4>
+            <h4 class="text-h6 text-green-14 q-mb-sm">Paso 1: Declarar props</h4>
             <q-card class="code-card" flat bordered>
             <q-card-section>
                 <pre class="text-caption bg-grey-10 text-green q-pa-md rounded-borders overflow-auto">{{ declararProps }}</pre>
@@ -20,7 +20,7 @@
         </div>
 
         <div class="pass-props-section q-mb-xl">
-            <h4 class="text-h6 text-primary q-mb-sm">Paso 2: Pasar props desde el padre</h4>
+            <h4 class="text-h6 text-green-14 q-mb-sm">Paso 2: Pasar props desde el padre</h4>
             <q-card class="code-card" flat bordered>
             <q-card-section>
                 <pre class="text-caption bg-grey-10 text-green q-pa-md rounded-borders overflow-auto">{{ propsPadre }}</pre>

@@ -1,18 +1,18 @@
 <template>
     <q-page padding class="documentation-page">
         <div class="container">
-        <h1 class="text-h4 text-center text-primary q-mb-md">Ciclo de vida de Vue</h1>
+        <h1 class="text-h4 text-center text-green-14 q-mb-md">Ciclo de vida de Vue</h1>
 
         <div class="paragraph-container q-mb-lg">
             <p class="text-body1">Cada componente en Vue pasa por una serie de etapas desde su creación hasta su eliminación. Estas etapas se conocen como el ciclo de vida del componente.</p>
         </div>
 
         <div class="lifecycle-hooks q-mb-xl">
-            <h4 class="text-h6 text-primary q-mb-sm">Principales hooks</h4>
+            <h4 class="text-h6 text-green-14 q-mb-sm">Principales hooks</h4>
             <div class="hooks-grid">
             <q-card class="hook-card" flat bordered v-for="(hook, index) in lifecycleHooks" :key="index">
                 <q-card-section>
-                <div class="text-subtitle1 text-primary q-mb-xs">{{ hook.name }}</div>
+                <div class="text-subtitle1 text-green-14 q-mb-xs">{{ hook.name }}</div>
                 <p class="text-body2 q-mb-none">{{ hook.description }}</p>
                 </q-card-section>
             </q-card>
@@ -20,7 +20,7 @@
         </div>
 
         <div class="common-usage q-mb-xl">
-            <h4 class="text-h6 text-primary q-mb-sm">Uso común:</h4>
+            <h4 class="text-h6 text-green-14 q-mb-sm">Uso común:</h4>
             <q-card class="code-card" flat bordered>
             <q-card-section>
                 <pre class="text-caption bg-grey-10 text-green q-pa-md rounded-borders overflow-auto">{{ usoComun }}</pre>

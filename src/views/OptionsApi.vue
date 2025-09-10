@@ -1,14 +1,14 @@
 <template>
     <q-page padding class="documentation-page">
         <div class="container">
-        <h1 class="text-h4 text-center text-primary q-mb-md">Options API</h1>
+        <h1 class="text-h4 text-center text-green-14 q-mb-md">Options API</h1>
         
         <div class="paragraph-container q-mb-lg">
             <p class="text-body1">La Options API es la forma tradicional de definir componentes en Vue. Agrupa el código por opciones como data, methods, computed, mounted, etc.</p>
         </div>
 
         <div class="structure-section q-mb-xl">
-            <h4 class="text-h6 text-primary q-mb-sm">Estructura básica</h4>
+            <h4 class="text-h6 text-green-14 q-mb-sm">Estructura básica</h4>
             <q-card class="code-card" flat bordered>
             <q-card-section>
                 <pre class="text-caption bg-grey-10 text-green q-pa-md rounded-borders overflow-auto">{{ estructuraBasica }}</pre>
@@ -17,7 +17,7 @@
         </div>
 
         <div class="advantages-section q-mb-xl">
-            <h4 class="text-h6 text-primary q-mb-sm">Ventajas:</h4>
+            <h4 class="text-h6 text-green-14 q-mb-sm">Ventajas:</h4>
             <q-list bordered separator class="feature-list">
             <q-item>
                 <q-item-section>
@@ -38,7 +38,7 @@
         </div>
 
         <div class="disadvantages-section q-mb-xl">
-            <h4 class="text-h6 text-primary q-mb-sm">Desventajas:</h4>
+            <h4 class="text-h6 text-green-14 q-mb-sm">Desventajas:</h4>
             <q-list bordered separator class="feature-list">
             <q-item>
                 <q-item-section>
